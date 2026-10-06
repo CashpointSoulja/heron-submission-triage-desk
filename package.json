@@ -1,0 +1,13 @@
+{
+  "name": "heron-submission-triage-desk",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Submission Triage Desk: an independent concept for broker-submission intake and scrubbing.",
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "evals": "node scripts/run-evals.js",
+    "serve": "python3 -m http.server 4173"
+  },
+  "license": "MIT"
+}
