@@ -116,3 +116,11 @@ errors []
 Evidence chip opened the source drawer on the same line; override with rationale unlocked *Mark decision-ready*; JSON and CSV package exports and the audit CSV downloaded. On SUB-2052, reclassifying the unreadable tax scan kept one flag (completeness: voided check still missing) while the EIN check moved from *not run* to *pass* (also asserted in unit tests).
 
 Screenshots: [`docs/screenshots/`](docs/screenshots/).
+
+## Live deploy check
+
+`https://cashpointsoulja.github.io/heron-submission-triage-desk/` returned HTTP 200 after the first Pages workflow run ("completed successfully"). The same overflow/console script, pointed at the live URL, gave `sw == cw` and 0 console errors at 1440, 834 and 390 for the desk (SUB-2047) and Eval lab.
+
+## Video
+
+`video/triage-desk-demo.mp4`: ffprobe 1080×1920, 70.6 s, H.264 + AAC; `silencedetect=noise=-40dB:d=0.9` reports no gaps; container and stream metadata stripped.

@@ -1,0 +1,83 @@
+1
+00:00:00,250 --> 00:00:04,750
+This is the Submission Triage Desk, a concept extension of Heron for a fictional funder.
+
+2
+00:00:04,750 --> 00:00:10,120
+Twelve broker submissions sit in the shared inbox, each with its ask, completeness and a live SLA clock.
+
+3
+00:00:10,822 --> 00:00:12,398
+I open Bluewave Auto Detailing.
+
+4
+00:00:12,398 --> 00:00:18,042
+Before anyone touched it, every attachment was classified, with a confidence score and a one-click reclassify.
+
+5
+00:00:18,761 --> 00:00:21,197
+Every extracted number carries an evidence chip.
+
+6
+00:00:21,197 --> 00:00:24,851
+Tap one, and the source statement opens on the exact line it came from.
+
+7
+00:00:25,564 --> 00:00:28,185
+The scrub engine re-adds every running balance.
+
+8
+00:00:28,185 --> 00:00:30,248
+One printed balance does not follow.
+
+9
+00:00:30,248 --> 00:00:33,147
+The rule is shown, and the flag waits for a person.
+
+10
+00:00:33,147 --> 00:00:34,764
+I confirm it, with a reason.
+
+11
+00:00:35,479 --> 00:00:40,014
+The funder's credit policy runs as explicit rules, pass or fail, with the reason.
+
+12
+00:00:40,014 --> 00:00:41,749
+Passing never approves a deal.
+
+13
+00:00:42,458 --> 00:00:48,056
+With every flag reviewed, I choose an outcome, write the rationale, and export a CRM-ready package.
+
+14
+00:00:48,056 --> 00:00:50,148
+Every step lands in the audit trail.
+
+15
+00:00:50,853 --> 00:00:54,183
+The eval lab scores the engine on twenty-four seeded submissions.
+
+16
+00:00:54,183 --> 00:00:57,103
+Eighteen of nineteen defects caught, one false positive.
+
+17
+00:00:57,805 --> 00:01:01,746
+And here is the honest miss: a re-typed statement with consistent balances.
+
+18
+00:01:01,746 --> 00:01:03,795
+Catching that needs bank-sourced data.
+
+19
+00:01:04,506 --> 00:01:05,974
+Submission Triage Desk.
+
+20
+00:01:05,974 --> 00:01:08,143
+Independent concept by Ayo Ahmed.
+
+21
+00:01:08,143 --> 00:01:09,866
+Not affiliated with Heron.
