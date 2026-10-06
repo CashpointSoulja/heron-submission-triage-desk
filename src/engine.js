@@ -450,7 +450,14 @@ function crossCheck(id, sources, norm) {
   const base = norm(sources[0][1].data.value);
   const diff = sources.filter(([, l]) => norm(l.data.value) !== base);
   if (!diff.length) return result(id, 'pass', `Matches across ${sources.length} documents`);
-  return result(id, 'flag', diff.map(([n, l]) => `${n} says "${l.data.value}" vs application "${sources[0][1].data.value}"`).join('; '), [sources[0][1], ...diff.map(([, l]) => l)]);
+  const groups = new Map();
+  for (const [n, l] of diff) {
+    const k = norm(l.data.value);
+    if (!groups.has(k)) groups.set(k, { value: l.data.value, names: [] });
+    groups.get(k).names.push(n);
+  }
+  const parts = [...groups.values()].map((g) => `${g.names.join(', ')} ${g.names.length > 1 ? 'show' : 'shows'} "${g.value}"`);
+  return result(id, 'flag', `${sources[0][0]} shows "${sources[0][1].data.value}"; ${parts.join('; ')}`, [sources[0][1], ...diff.map(([, l]) => l)]);
 }
 
 // ---------- credit policy ----------

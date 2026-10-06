@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Submission Triage Desk · Heron concept</title>
+  <meta name="description" content="Submission Triage Desk: every broker submission classified, extracted and scrubbed before the underwriter opens it. Independent concept by Ayo Ahmed. Not affiliated with Heron.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/instrument-sans-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="nav">
+    <div class="nav-inner">
+      <a class="brand" href="#/desk" aria-label="Submission Triage Desk home">
+        <img src="assets/heron-logo-nav.svg" alt="Heron" width="90" height="19">
+        <span class="brand-sub">Triage Desk</span>
+      </a>
+      <nav class="tabs" aria-label="Main">
+        <a href="#/desk" data-tab="desk"><i class="sq t"></i>Desk</a>
+        <a href="#/evals" data-tab="evals"><i class="sq b"></i>Eval lab</a>
+        <a href="#/metrics" data-tab="metrics"><i class="sq g"></i>Metrics</a>
+        <a href="#/audit" data-tab="audit"><i class="sq p"></i>Audit trail</a>
+      </nav>
+      <div class="nav-right">
+        <span class="muted nav-funder">Meridian Capital Funding</span>
+        <button class="btn primary" id="export-audit-nav" type="button"><i class="glyph"></i>Export audit</button>
+      </div>
+    </div>
+  </header>
+  <main id="app" tabindex="-1"></main>
+  <footer class="footer">
+    <div class="footer-inner">
+      <img src="assets/heron-logo-tangerine.svg" alt="Heron" width="84" height="18">
+      <p>Independent concept by Ayo Ahmed. Not affiliated with Heron.</p>
+      <p class="muted">Meridian Capital Funding, every broker, business, person and document on this page is synthetic.</p>
+    </div>
+  </footer>
+  <div id="drawer" class="drawer" hidden></div>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script type="module" src="src/app.js"></script>
+</body>
+</html>
